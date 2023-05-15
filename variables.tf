@@ -1,1 +1,4 @@
-variable "my_ip" {}
+variable "my_ip" {
+    tyep = string
+    description = "my ip adress"
+}

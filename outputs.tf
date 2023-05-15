@@ -1,3 +1,3 @@
 output "command" {
-    value = "curl http://${aws_instance.nginx.public_ip}"
+  value = "curl http://${aws_instance.nginx.public_ip}"
 }
